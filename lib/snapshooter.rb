@@ -5,6 +5,7 @@ require 'snapshooter/cli'
 require 'snapshooter/storage/base'
 require 'snapshooter/storage/local'
 require 'snapshooter/storage/s3'
+require 'snapshooter/datastore/mysql'
 
 module Snapshooter
   mattr_accessor :datastores, :environment, :application_name
