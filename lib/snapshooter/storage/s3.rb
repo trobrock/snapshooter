@@ -41,7 +41,7 @@ module Snapshooter
       end
 
       def connection
-        FogFactory.storage
+        Fog::Storage[:aws]
       end
 
       def with_tempfile(data)
