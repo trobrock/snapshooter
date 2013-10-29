@@ -1,4 +1,5 @@
 require 'tempfile'
+require 'fog'
 
 module Snapshooter
   module Storage
